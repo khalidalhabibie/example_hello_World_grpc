@@ -18,6 +18,6 @@ run client
 ```
 Try API
 ```bash
-url  -d '{"name": "Khalid"}' http://localhost:8081/api/v1/greeter
+curl  -d '{"name": "Khalid"}' http://localhost:8081/api/v1/greeter
 ```
 documentation : swagger/hello.swagger
