@@ -1,0 +1,16 @@
+1. generate proto 
+ make proto_hello
+
+ 2. run server 
+
+ go run server/main.go
+
+ 3. go client
+
+ go run client/main.go
+
+ 4. try API 
+ curl  -d '{"name": "Khalid"}' http://localhost:8081/api/v1/greeter
+
+ 5. documentation
+    swagger/hello.swagger
